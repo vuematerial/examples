@@ -1,0 +1,12 @@
+{
+  "name": "Vue Material - Quick start",
+  "keywords": [
+    "vue-material",
+    "material-design",
+    "vue"
+  ],
+  "dependencies": {
+    "vue-material": "latest",
+    "vue": "latest"
+  }
+}
