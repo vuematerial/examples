@@ -5,15 +5,15 @@
     </md-toolbar>
     
     <md-content>
-        Your content here
+        let's start
     </md-content>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'App',
-  }
+export default {
+  name: "App"
+};
 </script>
 
 <style lang="scss">
