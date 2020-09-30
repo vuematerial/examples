@@ -1,12 +1,24 @@
 {
-  "name": "Vue Material - Quick start",
-  "keywords": [
-    "vue-material",
-    "material-design",
-    "vue"
-  ],
+  "name": "feathers-vuex-quick-start",
+  "keywords": ["vuex", "vue", "feathers", "feathers-vuex"],
   "dependencies": {
-    "vue-material": "latest",
-    "vue": "latest"
-  }
+    "feathers-vuex": "1.6.0",
+    "@feathersjs/feathers": "3.3.1",
+    "vuex": "3.5.1",
+
+    "@vue/cli-plugin-babel": "4.1.1",
+    "vue": "^2.6.11",
+    "feathers-hooks-common": "4.7.0",
+    "feathers-localstorage": "5.0.0",
+    "vue-material": "1.0.0-beta-10.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "4.1.1",
+    "@vue/cli-service": "4.1.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "description": "Report bugs at bit.ly/auyxzpt\n\nThis demo shows realtime reactivity between the server with feathers-vuex.  As well as the isomorphicity of feathers.\n\nRemembers todo's across refreshes by saving to the browser's Local Storage. Realtime data reactivity works the same with this browser side server as it does if you had feathers connected with sockets."
 }
